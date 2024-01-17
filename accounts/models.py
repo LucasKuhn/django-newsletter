@@ -3,4 +3,4 @@ from django.contrib.auth.models import AbstractUser
 
 
 class CustomUser(AbstractUser):
-    age = models.PositiveIntegerField(null=True, blank=False)
+    age = models.PositiveIntegerField(null=True, blank=True)
